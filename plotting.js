@@ -378,7 +378,7 @@ function Change1M()
         change1M.innerHTML = 'Submit';
         changeValueM=0;
         val1M.className = '';
-        val1M.className += 'status';
+        val1M.className += 'status1';
         val1M.innerHTML = 'Pending';
 
     }
@@ -418,7 +418,7 @@ function Change2M()
         change2M.innerHTML = 'Submit';
         changeValue1M=0;
         val2M.className = '';
-        val2M.className += 'status';
+        val2M.className += 'status1';
         val2M.innerHTML = 'Pending';
 
     }
@@ -458,7 +458,7 @@ function Change3M()
         change3M.innerHTML = 'Submit';
         changeValue2M=0;
         val3M.className = '';
-        val3M.className += 'status';
+        val3M.className += 'status1';
         val3M.innerHTML = 'Pending';
 
     }
@@ -497,7 +497,7 @@ function Change4M()
         change4M.innerHTML = 'Submit';
         changeValue3M=0;
         val4M.className = '';
-        val4M.className += 'status';
+        val4M.className += 'status1';
         val4M.innerHTML = 'Pending';
 
     }
@@ -534,7 +534,7 @@ function Change5M()
         change5M.innerHTML = 'Submit';
         changeValue4M=0;
         val5M.className = '';
-        val5M.className += 'status';
+        val5M.className += 'status1';
         val5M.innerHTML = 'Pending';
     }
 
