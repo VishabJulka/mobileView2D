@@ -252,6 +252,7 @@
 
 
             var ctx1 = document.getElementById('my_canvas1').getContext('2d');
+            ctx1.canvas.width = window.innerWidth;
             ctx1.canvas.addEventListener('mousemove', function (event) {
                 var mouseX1 = event.clientX - ctx1.canvas.offsetLeft;
                 var mouseY1 = event.clientY - ctx1.canvas.offsetTop;
@@ -282,6 +283,11 @@
             html,body {
             overflow-x: hidden;
             overflow-y: hidden;
+        }
+        }
+        @media only screen and (max-width: 600px) {
+            html,body {
+            overflow-x: hidden;
         }
         }
     </style>
@@ -491,7 +497,8 @@
 
             <div class="col-12">
                 <div class="fixed" style="margin-top: 5px;">
-                    <canvas id="my_canvas1" width="335" height="330"></canvas>
+                    <canvas id="my_canvas1"  height="330"></canvas>
+                   <!-- width-335 -->
                 </div>
             </div>
 
